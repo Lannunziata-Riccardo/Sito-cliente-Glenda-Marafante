@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Sfondo circolare Verde Salvia Scuro -->
+    <style>
+      .bg { fill: #3B4E43; }
+      .letter-g { fill: none; stroke: #F8F5F0; stroke-width: 26; stroke-linecap: round; stroke-linejoin: round; }
+      .letter-m { fill: none; stroke: #C88A73; stroke-width: 26; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-dot { fill: #C88A73; }
+    </style>
+  </defs>
+
+  <!-- Sfondo Tondo -->
+  <circle class="bg" cx="256" cy="256" r="256"/>
+
+  <!-- Cerchio decorativo sottile interno (L'idea dell'orbita/ascolto) -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#F8F5F0" stroke-width="4" opacity="0.25"/>
+
+  <!-- Monogramma "G" (Crema) -->
+  <path class="letter-g" d="M 280 160 C 200 160, 150 200, 150 260 C 150 320, 200 360, 270 360 C 310 360, 335 340, 335 310 L 260 310" />
+
+  <!-- Monogramma "M" integrato (Argilla/Clay) -->
+  <path class="letter-m" d="M 230 360 L 230 220 L 280 300 L 330 220 L 330 360" />
+
+  <!-- Punto d'accento sintetico -->
+  <circle class="accent-dot" cx="370" cy="360" r="14" />
+</svg>
